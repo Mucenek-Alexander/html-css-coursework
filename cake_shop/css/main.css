@@ -1,0 +1,442 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+
+}
+
+.h2 {
+    font-family: MontserratMedium;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: MontserratRegular;
+    font-size: 24px;
+    color: #2E363E;
+    display: block;
+    margin: 14px 0 80px;
+    text-align: center;
+}
+
+.first-screen {
+    background-image: url("../assets/img/background/1_screen.jfif");
+}
+
+.first-screen__header {
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 7.5rem;
+    border-bottom: 1px solid #7E868E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-link {
+    text-decoration: none;
+    font-family: MontserratMedium;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.header__organisation-info {
+    display: flex;
+    gap: 4rem;
+    margin: 0;
+}
+
+.organisation-info__address {
+    list-style-image: url("../assets/icons/location-icon.svg");
+    font-family: MontserratMedium;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.organisation-info__phone {
+    list-style-image: url("../assets/icons/phone-icon.svg");
+    font-family: MontserratBold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.organisation-info__opening-hours {
+    font-family: MontserratMedium;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.first-screen__intro {
+    margin-top: 11.75rem;
+    margin-left: 23.125rem;
+    padding-bottom: 465px;
+}
+
+.text-block {
+    max-width: 40.4375rem;
+}
+
+.text-block__sign {
+    padding: 0.625rem 1.125rem;
+    display: inline-block;
+    font-family: MontserratRegular;
+    font-size: 11px;
+    color: #2E363E;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #F2F6FA;
+    border-radius: 5px;
+}
+
+.text-block__title {
+    font-family: MontserratBold;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    line-height: 60px;
+}
+
+.text-block__description {
+    font-family: MontserratRegular;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.text-block__list {
+    font-family: MontserratRegular;
+    font-size: 18px;
+    color: #2E363E;
+    list-style: none;
+    padding: 0;
+    max-width: 450px;
+}
+
+.text-block__list-item:before {
+    display: inline-block;
+    content: "\2022";
+    color: #5D6AFB;
+    width: 1rem;
+    margin-left: -1rem;
+    font-size: 2em;
+    font-weight: bold;
+    transform: translateY(5%);
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font-family: MontserratMedium;
+    font-size: 18px;
+    color: #2E363E;
+    background-color: #FED84C;
+    border-radius: 8px;
+    line-height: 152%;
+    padding: 30px 50px;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+.text-block__button-aside-text {
+    margin-left: 1.25rem;
+    display: inline-block;
+    font-family: MontserratRegular;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-justify: inter-character;
+    transform: translateY(25%);
+}
+
+.catalog__title {
+    max-width: 1180px;
+    text-align: center;
+    font-family: MontserratMedium;
+    font-size: 48px;
+    color: #2E363E;
+    margin: 0 auto;
+}
+
+.catalog__cards {
+    display: grid;
+    max-width: 1180px;
+    margin: 80px auto 0;
+    grid-template-areas: "card card card"
+                         "card card card"
+                         "card card card";
+    grid-auto-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.catalog__card {
+    max-width: 380px;
+    border: 1px solid #F2F6FA;
+}
+
+.card__text {
+    margin: 44px 50px;
+}
+
+.card__button {
+    padding: 20px 40px;
+    margin-top: 14px;
+}
+
+.card__title {
+    font-family: MontserratBold;
+    font-size: 24px;
+    color: #2E363E;
+    margin: 0;
+}
+
+.card__description {
+    font-family: MontserratRegular;
+    font-size: 16px;
+    color: #2E363E;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.card__price {
+    display: block;
+    font-family: MontserratMedium;
+    font-size: 24px;
+    color: #2E363E;
+}
+
+.cakes-to-order {
+    background-image: url("../assets/img/background/cakes-to-order_bg.png");
+}
+
+.cakes-to-order__right-text {
+    margin-left: 1070px;
+    padding-top: 430px;
+    margin-right: 370px;
+    padding-bottom: 465px;
+}
+
+.cakes-to-order__right-text-title {
+    font-family: MontserratMedium;
+    font-size: 48px;
+}
+
+.cakes-to-order__right-text-description {
+    font-size: 21px;
+    letter-spacing: -0.5px;
+}
+
+.about-confectioner {
+    background-image: url("../assets/img/background/about-confectioner_bg.png");
+    height: 830px;
+}
+
+.about-confectioner__text {
+    margin-top: 96px;
+    margin-left: 362px;
+    margin-bottom: 96px;
+}
+
+.cakes-to-order__text-title {
+    font-family: MontserratMedium;
+    color: #2E363E;
+}
+
+.about-confectioner__positioned-text {
+
+}
+
+.skewed-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(850px, -230px);
+    max-width: 300px;
+}
+
+.skewed-block__title {
+    background-color: #2E363E;
+    width: 287px;
+    transform: skewX(-10deg);
+    border-radius: 5px;
+}
+
+.skewed-block__subtitle {
+    background-color: #FFFFFF;
+    width: 218px;
+    transform: skewX(-10deg);
+    border-radius: 5px;
+}
+
+.title__text {
+    font-family: MontserratRegular;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 15px;
+    display: inline-block;
+    transform: skewX(10deg);
+}
+
+.subtitle__text {
+    font-family: MontserratMedium;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2E363E;
+    padding: 15px;
+    display: inline-block;
+    transform: skewX(10deg);
+}
+
+.recalls {
+    background-image: url("../assets/img/background/recalls_bg.png");
+    height: 1505px;
+}
+
+.recalls__title {
+    padding-top: 300px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.recalls__cards-carousel {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    gap: 50px;
+    align-content: space-around;
+}
+
+.cards-carousel__card {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    width: 1180px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+.carousel-card__content {
+    margin: 70px 143px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-card {
+    transform: scale(0.75);
+    transform-origin: right;
+    opacity: 10%;
+}
+
+.right-card {
+    transform: scale(0.75);
+    transform-origin: left;
+    opacity: 10%;
+}
+
+.left-side__title {
+    font-family: MontserratMedium;
+    font-size: 30px;
+    color: #2E363E;
+    margin-bottom: 24px;
+}
+
+.left-side__description {
+    font-family: MontserratRegular;
+    font-size: 15px;
+    color: #2E363E;
+    margin-bottom: 24px;
+}
+
+.left-side__show-more-link {
+    text-decoration: none;
+    font-family: MontserratRegular;
+    font-size: 14px;
+    color: #4A94FF;
+    border-bottom: 1px dot-dash #4A94FF;
+}
+
+.carousel-card__right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 54px;
+}
+
+.right-side__user-name {
+    font-family: MontserratMedium;
+    font-size: 21px;
+    color: #2E363E;
+    margin-top: 30px;
+}
+
+.right-side__user-city {
+    font-family: MontserratRegular;
+    font-size: 16px;
+    color: #A6AEB6;
+    margin-top: 6px;
+}
+
+.cards-carousel__nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+
+.nav-button__left-arrow {
+    transform: translate(-50px, -18px);
+    cursor: pointer;
+}
+
+.nav-button__right-arrow {
+    transform: translate(-40px, -18px);
+    cursor: pointer;
+}
+
+.nav-button__left-button {
+    cursor: pointer;
+
+}
+
+.nav-button__right-button {
+    cursor: pointer;
+}
+
+.recalls:after {
+    background-image: url("../assets/img/background/callbacks_after_bg.png");
+    height: 284px;
+}
+
+.cakes-gallery__gallery {
+    display: grid;
+    grid-template-areas: "photo" "photo" "photo"
+                         "photo" "photo" "photo"
+                         "photo" "photo" "photo";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 6px;
+}
+
+.callback-form {
+    background-image: url("../assets/img/background/callback-form_bg.png");
+    padding-top: 300px;
+    padding-bottom: 218px;
+}
+
+.form {
+    background-color: #FFFFFF;
+    max-width: 1180px;
+    margin: 0 auto 0;
+}
+
